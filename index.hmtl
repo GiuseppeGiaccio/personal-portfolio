@@ -11,5 +11,21 @@
 </head>
 
 <body>
+ <header>
+   <div id="navbar">
+     <div id="name">
+        <h3>GG</h3>
+     </div>
+     <nav>
+        <ul>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+     </nav>   
+  </div>
+
+ </header>
+
 </body>
 </html>
