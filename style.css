@@ -1,12 +1,15 @@
 
 body{
     font-family: Manrope, sans-serif;
+    background-color: #557c80;
+    
 }
 
 #navbar{
     display: flex;
     justify-content: space-between;
     background-color: #FFE8D2;
+    border-radius: 20px;
 }
 #name{
     display: inline-block;
@@ -60,6 +63,7 @@ nav  ul li a{
 }
 #hero-right img{
 width: 50%;
+border-radius: 20px;
 
 }
 #hero-left button{
@@ -83,6 +87,7 @@ width: 50%;
     display: flex;
 
     background-color: #FFE8D2;
+    border-radius: 20px;
 }
 #appr-left{
     width: 50%;
@@ -102,4 +107,46 @@ width: 50%;
 #appr-left img{
    width: 100%;
   
+}
+#case-studies{
+    background-color: #FFE8D2;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+#case-studies h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2rem;
+}
+#cards-cont{
+    display: flex;
+    justify-content: space-around;
+}
+.project-card{
+   margin: 30px;
+
+    width: 25%;
+    padding: 20px;
+    background-color: #936f5c;
+   
+    border-radius: 30px;
+} 
+.project-card a {
+  color: #FFE8D2;
+  font-weight: bold;
+  text-decoration: none;
+}
+.project-card a:hover{
+    text-decoration: underline;
+}
+#showcase{
+    height: 500px;
+    overflow: hidden;
+}
+#showcase img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+
 }
