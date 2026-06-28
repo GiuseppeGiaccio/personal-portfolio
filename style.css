@@ -11,7 +11,7 @@ body{
     background-color: #FFE8D2;
     border-radius: 20px;
 }
-#name{
+#nameLogo{
     display: inline-block;
     padding-left: 50px;
     
@@ -77,8 +77,9 @@ border-radius: 20px;
 #hero-left button:hover{
     background-color: #FFE8D2;
     
-    border: solid 5px #936f5c;
-    border-radius: 35px;
+    border: solid 7px #936f5c;
+    border-radius: 30px;
+    padding: 10px 30px;
     
     
 }
@@ -149,4 +150,61 @@ border-radius: 20px;
     object-fit: cover;
     border-radius: 20px;
 
+}
+#contact-form{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    border: solid 5px #936f5c;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    width: 50%;
+}
+.form-row{
+    display: flex;
+    gap: 20px;
+    
+}
+.form-row button {
+     background-color: #FFE8D2;
+    color: #557c80;
+    border: solid 1px #936f5c;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    margin: 10px;
+}
+.form-field{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+    
+}
+input, 
+select,
+textarea {
+    background-color: #FFE8D2;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Manrope, sans-serif;
+    color: #557c80;
+    border: 2px solid #936f5c;
+}
+input:focus, 
+select:focus,
+textarea:focus{
+    outline: none;
+  box-shadow: 0 0 8px #936f5c;
+   
+}
+.error{
+    border: 3px solid #9b3f2f;
+}
+#form-message{
+    display: block;
+    color: #FFE8D2;
 }

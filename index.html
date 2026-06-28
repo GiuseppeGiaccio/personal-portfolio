@@ -13,7 +13,7 @@
 <body>
  <header>
    <div id="navbar">
-     <div id="name">
+     <div id="nameLogo">
         <h3>GG</h3>
      </div>
      <nav> 
@@ -76,7 +76,51 @@
     <section id="showcase">
       <img src="/images/office.jpg" alt="">
     </section>
+    <section id="contact-form">
+      <h2>Contact</h2>
+      <form action="" id="form-contact" >
+         <div class="form-row">
+          <div class="form-field">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name"> 
+          </div>
+          <div class="form-field">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+          </div>    
+        </div>
+        <div class="form-row"> 
+          <div class="form-field">
+            <label for="project">Project type</label>
+            <select name="project" id="project">
+              <option value="portfolio">Portfolio</option>
+              <option value="landing-page">Landing Page</option>
+              <option value="business-website">Business Website</option>
+              <option value="e-commerce">E-commerce</option>
+            </select> 
+          </div>
+          <div class="form-field">
+            <label for="budget">Budget in €: </label>
+            <select name="budget" id="budget">
+              <option value="500">500</option>
+              <option value="1000">1000</option>
+              <option value="1500">1500</option>
+            </select>
+          </div>  
+        </div> 
+        <div class="form-row">
+          <div class="form-field">
+            <label for="message">Write your message here</label>
+            <textarea name="message" id="message"></textarea>
+          </div>  
+        </div> 
+        <div class="form-row">   
+          <button type="submit">Submit</button>
+        </div>   
+      </form>
+      <p id="form-message"></p>
+    </section>
  </main>
-
+ <script src="script.js"></script>
 </body>
 </html>
